@@ -634,6 +634,15 @@ nav.colorgy-nav.not-on-top{
 	background-color: rgba(0,0,0,.6) !important;
 }
 
+.arrow-down{
+	text-align: center;
+	> i{
+		font-size: 2em !important;
+		color: #eee;
+		position: relative;
+	}
+}
+
 /* Isotope */
 /* clear fix */
 .isotope:after {
