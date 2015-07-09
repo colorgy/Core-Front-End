@@ -48,7 +48,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col m6 s12">
-				<div class="info books">
+				<div class="info books" id="books-anchor">
 					<div class="title books">
 						<h3>BOOKS 原文書團購</h3>
 					</div>
@@ -78,7 +78,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col m6 s12">
-				<div class="info tasks">
+				<div class="info tasks" id="tasks-anchor">
 					<div class="title tasks">
 						<h3>TASKS 大學幫</h3>
 					</div>
@@ -108,7 +108,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col m6 s12">
-				<div class="info table">
+				<div class="info table" id="table-anchor">
 					<div class="title table">
 						<h3>TABLE 行動課程表</h3>
 					</div>
@@ -212,5 +212,27 @@
 	      columnWidth: '.grid-sizer',
 	    });
 	  });
+	})
+
+	$(window).scroll(function(){
+		var window_height = $(window).height();
+		var window_pos = $(window).scrollTop() + window_height;
+		var books_pos = $('#books-anchor').offset().top;
+		var tasks_pos = $('#tasks-anchor').offset().top;
+		var table_pos = $('#table-anchor').offset().top;
+
+		if( window_pos > books_pos ){
+			$('.info.books').addClass('active');
+			$('.box-image.books').addClass('active');
+		}
+		if( window_pos > tasks_pos ){
+			$('.info.tasks').addClass('active');
+			$('.box-image.tasks').addClass('active');
+		}
+		if( window_pos > table_pos ){
+			$('.info.table').addClass('active');
+			$('.box-image.table').addClass('active');
+		}
+
 	})
 </script>
