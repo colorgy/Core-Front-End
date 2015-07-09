@@ -258,6 +258,20 @@ header{
 		color: #eee;
 		text-align: center;
 		padding-top: 144px;
+
+		> h2{
+			@media screen and (max-width: 600px) {
+				font-size: 2em;
+			}
+		}
+
+		> p {
+			@media screen and (max-width: 600px) {
+				font-size: 1em;
+			}
+
+		}
+
 	}
 
 	> .header-call-to-action{
@@ -480,6 +494,7 @@ header{
 
 				> i{
 					color: $primary-color;
+					margin-right: 8px;
 				}
 			}
 			color: $dark-gray;
