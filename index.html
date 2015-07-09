@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Colorgy</title>
+
+    <link href="stylesheets/application.css" rel="stylesheet" type="text/css" />
+    <script src="javascripts/application.js" type="text/javascript"></script><script src="javascripts/main.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+
+  <body>
+    
+    <nav class="colorgy-nav nav-fixed">
+      <!--
+        <div class="top">
+            <div class="top-bar">
+                <ul>
+                    <li>
+                      <a href="/ColorgyV2-frontend/user-guide.html">
+                        常見問題
+                      </a>
+                    </li>
+                    <li class="nav-bar-drop-down">
+                      <a href="">
+                        Hi, 劉政軒<i class="material-icons list-icon">expand_more</i>
+
+                      </a>
+                      <ul class="drop-down-list">
+                        <li>
+                          <a href="#">登出</a>
+                        </li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      -->
+        <div class="nav-wrapper">
+          <a href="" class="brand-logo"><img src="images/header_logo.png" /></a>
+          <a href="/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">dehaze</i></a>
+          <ul class="right hide-on-med-and-down main-nav">
+            <li class="group-up">
+              <a href="/ColorgyV2-frontend/groupon.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="主揪或是班代可以在這邊選擇課程&書籍開團讓同學們跟團喲！">
+                Books
+              </a>
+            </li>
+            <li>
+              <a href="/ColorgyV2-frontend/book-browser.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="書籍總覽！可以利用課程、老師、isbn等關鍵字搜尋書籍！">
+                Tasks
+              </a>
+            </li>
+            <li>
+              <a href="/ColorgyV2-frontend/follow-group.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="所有團購總覽！同學們可以從這邊找到已開的團！">
+                Table
+              </a>
+            </li>
+            <!--
+            <li>
+              <a href="/ColorgyV2-frontend/follow-group.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="所有團購總覽！同學們可以從這邊找到已開的團！">
+                Paper
+              </a>
+            </li>
+            -->
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li id="personal-menu"><div class="personal-avatar"></div><a href="#personal-menu">個人工具列<i class="material-icons personal-menu-trigger" style="display: inline-block;">keyboard_arrow_down</i></a></li>
+            <ul class="personal-menu-collapse" style="display: none;">
+                <li>
+                  <a href="#">
+                    常見問題
+                  </a>
+                </li>
+            </ul>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Tasks</a></li>
+            <li><a href="#">Table</a></li>
+            <!--<li><a href="#">Paper</a></li>-->
+            <li><a href="#">登入</a></li>
+          </ul>
+          <div class="clear" style="clear:both;"></div>
+        </div>
+    </nav>
+    <div class="login-mobile-btn">
+      <a href="#">
+        馬上登入
+      </a>
+    </div>
+<script>
+  $(".button-collapse").sideNav();
+  $('#personal-menu').click(function(){
+    $('.personal-menu-collapse').slideToggle(500);
+    if($('.personal-menu-trigger').html() == 'keyboard_arrow_down'){
+      $('.personal-menu-trigger').html('keyboard_arrow_up');
+    }
+    else{
+      $('.personal-menu-trigger').html('keyboard_arrow_down');
+    }
+  })
+</script>
+
+    <header>
+	<div class="header-mask"></div>
+	<div class="header-slogan">
+		<h2>為你的大學生活上色</h2>
+		<p>搶先體驗專屬學生的各種便利服務</p>
+	</div>
+	<div class="header-call-to-action">
+		<button class="btn btn--large">立即註冊 / 登入</button>
+	</div>
+	<div class="row row-inner-s" style="margin-top: 48px;">
+		<div class="col m4 s12">
+			<div class="service">
+				<h4>TABLE</h4>
+				<p>你的專屬行動課程表</p>
+				<small>把你的課表帶著走，貼心提醒不再忘記上課時間、地點，上課變得好輕鬆</small>
+			</div>
+		</div>
+		<div class="col m4 s12">
+			<div class="service">
+				<h4>BOOKS</h4>
+				<p>你的買書好幫手</p>
+				<small>一本即團購價，線上金流系統，讓你買書更便宜、方便。</small>
+			</div>
+		</div>
+		<div class="col m4 s12">
+			<div class="service">
+				<h4>TASKS</h4>
+				<p>尋找校園的即時幫手</p>
+				<small>尋找需要幫忙的同學，賺取即時的外快，哪裡都幫、隨時都幫</small>
+			</div>
+		</div>
+	</div>
+	<div class="slideshow-3d" style="display:none;">
+		<div class="slideshow-3d-inner">
+			<div class="layer layer1">
+				<img src="images/table-img.png" />
+			</div>
+			<div class="layer layer2">
+				<img src="images/books-img.png" />
+			</div>
+			<div class="layer layer3">
+				<img src="images/paper-img.png" />
+			</div>
+		</div>
+	</div>
+</header>
+<section id="colorgy-books-section" class="colorgy-books-section service-intro-box books">
+	<div class="container">
+		<div class="row">
+			<div class="col m6 s12">
+				<div class="info books">
+					<div class="title books">
+						<h3>BOOKS 原文書團購</h3>
+					</div>
+					<p class="description">教科書版的博客來，一站買齊所有用書</p>
+					<p>
+						<span class="sub-title"><i class="material-icons">tag_faces</i><font style="font-weight:700;">方便</font></span>
+						在一個網站買齊所有你需要的書，直接配送到學校去，各種付款方式讓你的身上不用再帶著大筆現金。</br></br>
+						<span class="sub-title"><i class="material-icons">beenhere</i><font style="font-weight:700;">安心</font></span>
+						班代、助教不用再統計或是收錢，他們只要開團讓同學們來跟團，不再害怕書錢搞丟或是數量統計錯誤。</br></br>
+						<span class="sub-title"><i class="material-icons">local_atm</i><font style="font-weight:700;">優惠</font></span>
+						我們幫同學們爭取到一本即團購價的優惠，讓你可以省下更多的錢做更多妥善的運用。</br></br>
+					</p>
+					<div class="call-to-action">
+						<button class="btn">立即註冊</button>
+					</div>
+				</div>
+			</div>
+			<div class="col m6 s12">
+				<div class="box-image books">
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="colorgy-tasks-section" class="colorgy-tasks-section service-intro-box tasks">
+	<div class="container">
+		<div class="row">
+			<div class="col m6 s12">
+				<div class="info tasks">
+					<div class="title tasks">
+						<h3>TASKS 大學幫</h3>
+					</div>
+					<p class="description">即時發案、即時接案，外快好好賺</p>
+					<p>
+						<span class="sub-title"><i class="material-icons">local_atm</i><font style="font-weight:700;">賺外快</font></span>
+						課業、社團讓你沒空打工，想利用自己閒暇的時間多賺點外快順便幫忙同學嗎？隨時關注任務賺取外快！</br></br>
+						<span class="sub-title"><i class="material-icons">directions_run</i><font style="font-weight:700;">找幫手</font></span>
+						需要同學幫忙買晚餐嗎？報告來不及交希望有人幫忙跑腿嗎？Tasks 大學幫讓你隨時隨地找得到幫手</br></br>
+						<span class="sub-title"><i class="material-icons">alarm_on</i><font style="font-weight:700;">省時間</font></span>
+						Tasks 利用共享時間的概念，讓你節省更多時間，或是幫人節省時間賺外快！</br></br>
+					</p>
+					<div class="call-to-action">
+						<button class="btn">立即註冊</button>
+					</div>
+				</div>
+			</div>
+			<div class="col m6 s12">
+				<div class="box-image tasks">
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="colorgy-table-section" class="colorgy-table-section service-intro-box table">
+	<div class="container">
+		<div class="row">
+			<div class="col m6 s12">
+				<div class="info table">
+					<div class="title table">
+						<h3>TABLE 行動課程表</h3>
+					</div>
+					<p class="description">排課表、課程提醒、課堂聊天室</p>
+					<p>
+						<span class="sub-title"><i class="material-icons">local_atm</i><font style="font-weight:700;">排課表</font></span>
+						同步各校課程資料，告訴你哪些課衝堂了，還能看到哪些帥哥美女選了什麼課，選完課匯入到 TABLE APP 帶著走，選課排課更輕鬆</br></br>
+						<span class="sub-title"><i class="material-icons">directions_run</i><font style="font-weight:700;">課程提醒</font></span>
+						常常忘了在哪上課、老師是誰嗎？讓 Table 隨時提醒你，找教室沒煩惱</br></br>
+						<span class="sub-title"><i class="material-icons">alarm_on</i><font style="font-weight:700;">課堂聊天室</font></span>
+						想跟同一堂課的同學們聊天嗎？課程聊天室讓你上課不再無聊，討論報告、上課內容更容易。</br></br>
+					</p>
+					<div class="call-to-action">
+						<button class="btn">立即註冊</button>
+					</div>
+				</div>
+			</div>
+			<div class="col m6 s12">
+				<div class="box-image table">
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="cooperating-departments" class="cooperating-departments">
+	<div class="container">
+		<div class="row">
+			<div class="col m12 s12">
+				<h4>全台灣超過<span> 50 個系會</span> 跟 Colorgy 合作</h4>
+				<p>整理學校的資料相當不容易，需要時間處理，如果你也希望能使用到 Colorgy 的服務，請盡快聯繫我們，讓我們優先了解你的需要。</p>
+				<button class="btn">我也想要 Colorgy</button>
+				<div class="departments isotope">
+					<div class="grid-sizer"></div>
+					<div class="element-item department-item">
+						<div class="department-logo">
+							<img src="images/departments/ncku-cs.jpg" />
+						</div>
+						<p class="department-name"></p>
+					</div>
+					<div class="element-item department-item">
+						<div class="department-logo">
+							<img src="images/departments/ncku-ba.jpg" />
+						</div>
+						<p class="department-name"></p>
+					</div>
+					<div class="element-item department-item">
+						<div class="department-logo">
+							<img src="images/departments/ncku-es.jpg" />
+						</div>
+						<p class="department-name"></p>
+					</div>
+					<div class="element-item department-item">
+						<div class="department-logo">
+							<img src="images/departments/ncku-me.jpg" />
+						</div>
+						<p class="department-name"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="keep-mention" class="keep-mention">
+	<div class="container">
+		<div class="row" style="margin-bottom: -6px;">
+			<div class="col m7 s12">
+				<div class="text">
+					<h4>隨時保持關注</h4>
+					<p>我們的服務即將於 2015 年 8 月全面啟動，<br>想要關注 Colorgy 的動態消息，你可以按 <a href="#">Colorgy 粉絲專頁</a>讚、<a href="#">註冊登入</a>成會員，或是下載我們的 TABLE APP ，我們會發送推播消息給你。</p>
+					<div class="buttons">
+						<a class="ios-download" href="#"><img src="images/appstore.png" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="col m5 s12">
+				<div class="app-img">
+					<img src="images/table/index.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="sign-up-section" class="sign-up-section">
+	<div class="container">
+		<div class="row">
+			<div class="col m12 s12">
+				<h4>免費註冊登入</h4>
+				<p>你還在等什麼？快點體驗 Colorgy 吧！</p>
+				<button class="btn btn--extralarge">註冊 / 登入</button>
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+	$( function() {
+	  // init Isotope
+	  var $container = $('.isotope').imagesLoaded(function(){
+	    $container.isotope({
+	      itemSelector: '.element-item',
+	      columnWidth: '.grid-sizer',
+	    });
+	  });
+	})
+</script>
+
+    <footer>
+  <div class="footer-inner">
+    <div class="footer-menu">
+      <ul>
+        <li><a href="#">關於我們</a></li>
+        <li><a href="#">聯絡我們</a></li>
+        <li><a href="#">發落我們</a></li>
+      </ul>
+    </div>
+    <div class="company-rights">
+      <p><small><a href="#">網站原始碼 ＠Github</a> - © Colorgy 2015 - 米斯克科技股份有限公司 提供</small></p>
+    </div>
+  </div>
+</footer>
+
+    <script>
+      $(window).scroll(function(){
+        var window_pos = $(window).scrollTop();
+        if( window_pos > 0 ){
+          $('nav').addClass('not-on-top');
+        }
+        else{
+          $('nav').removeClass('not-on-top');
+        }
+      })
+    </script>
+  </body>
+</html>
