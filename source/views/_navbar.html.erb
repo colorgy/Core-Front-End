@@ -1,0 +1,88 @@
+
+    <nav class="colorgy-nav nav-fixed">
+      <!--
+        <div class="top">
+            <div class="top-bar">
+                <ul>
+                    <li>
+                      <a href="/ColorgyV2-frontend/user-guide.html">
+                        常見問題
+                      </a>
+                    </li>
+                    <li class="nav-bar-drop-down">
+                      <a href="">
+                        Hi, 劉政軒<i class="material-icons list-icon">expand_more</i>
+
+                      </a>
+                      <ul class="drop-down-list">
+                        <li>
+                          <a href="#">登出</a>
+                        </li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      -->
+        <div class="nav-wrapper">
+          <a href="" class="brand-logo"><%= image_tag('header_logo.png') %></a>
+          <a href="/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">dehaze</i></a>
+          <ul class="right hide-on-med-and-down main-nav">
+            <li class="group-up">
+              <a href="/ColorgyV2-frontend/groupon.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="主揪或是班代可以在這邊選擇課程&書籍開團讓同學們跟團喲！">
+                Books
+              </a>
+            </li>
+            <li>
+              <a href="/ColorgyV2-frontend/book-browser.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="書籍總覽！可以利用課程、老師、isbn等關鍵字搜尋書籍！">
+                Tasks
+              </a>
+            </li>
+            <li>
+              <a href="/ColorgyV2-frontend/follow-group.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="所有團購總覽！同學們可以從這邊找到已開的團！">
+                Table
+              </a>
+            </li>
+            <!--
+            <li>
+              <a href="/ColorgyV2-frontend/follow-group.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="所有團購總覽！同學們可以從這邊找到已開的團！">
+                Paper
+              </a>
+            </li>
+            -->
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li id="personal-menu"><div class="personal-avatar"></div><a href="#personal-menu">個人工具列<i class="material-icons personal-menu-trigger" style="display: inline-block;">keyboard_arrow_down</i></a></li>
+            <ul class="personal-menu-collapse" style="display: none;">
+                <li>
+                  <a href="#">
+                    常見問題
+                  </a>
+                </li>
+            </ul>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Tasks</a></li>
+            <li><a href="#">Table</a></li>
+            <!--<li><a href="#">Paper</a></li>-->
+            <li><a href="#">登入</a></li>
+          </ul>
+          <div class="clear" style="clear:both;"></div>
+        </div>
+    </nav>
+    <div class="login-mobile-btn">
+      <a href="#">
+        馬上登入
+      </a>
+    </div>
+<script>
+  $(".button-collapse").sideNav();
+  $('#personal-menu').click(function(){
+    $('.personal-menu-collapse').slideToggle(500);
+    if($('.personal-menu-trigger').html() == 'keyboard_arrow_down'){
+      $('.personal-menu-trigger').html('keyboard_arrow_up');
+    }
+    else{
+      $('.personal-menu-trigger').html('keyboard_arrow_down');
+    }
+  })
+</script>
