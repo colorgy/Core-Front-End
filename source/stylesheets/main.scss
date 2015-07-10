@@ -412,7 +412,8 @@ header{
 		}
 
 		&.books{
-			background: image-url('books-img.png') left top;
+			background: image-url('books-img.jpg') left top;
+			background-size: auto 100%;
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
@@ -427,7 +428,8 @@ header{
 
 		&.tasks{
 			right: 57%;
-			background: image-url('tasks-img.png')left top;
+			background: image-url('tasks-img.jpg')left top;
+			background-size: auto 100%;
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
@@ -436,11 +438,12 @@ header{
 			-o-transform: translateY(-50%);
 			-ms-transform: translateY(-50%);
 			left: inherit;
-			width: 1032px;
+			width: 900px;
 			height: 631px;
 		}
 		&.table{
 			background: image-url('table-img.png')left top;
+			background-size: auto 100%;
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
