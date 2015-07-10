@@ -401,6 +401,10 @@ header{
 
 		@media screen and (max-width: 600px) {
 			transform: none !important;
+			-webkit-transform: none !important;
+			-moz-transform: none !important;
+			-o-transform: none !important;
+			-ms-transform: none !important;
 			position: static !important;
 			top: initial !important;
 			margin-top: 36px;
@@ -412,6 +416,10 @@ header{
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			-moz-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
 			left: 58%;
 			width: 853px;
 			height: 630px;
@@ -423,6 +431,10 @@ header{
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			-moz-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
 			left: inherit;
 			width: 1032px;
 			height: 631px;
@@ -432,6 +444,10 @@ header{
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			-moz-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
 			left: 58%;
 			width: 853px;
 			height: 630px;
@@ -452,6 +468,10 @@ header{
 			position: static !important;
 			top: initial;
 			transform: none !important;
+			-webkit-transform: none !important;
+			-moz-transform: none !important;
+			-ms-transform: none !important;
+			-o-transform: none !important;
 			width: 100% !important;
 			max-width: 300px;
 			margin: 0 auto;
