@@ -69,6 +69,12 @@
                 Table
               </a>
             </li>
+            <li>
+              <a href="#cooperating-departments">系會合作</a>
+            </li>
+            <li>
+              <a href="#keep-mention">保持關注</a>
+            </li>
             <li class="register-login-btn">
               <a href="https://colorgy.io/login">
                 註冊 / 登入
@@ -265,7 +271,7 @@
 			<div class="col m12 s12">
 				<h4>全台灣超過<span> 50 個系會</span> 跟 Colorgy 合作</h4>
 				<p>強烈徵求各大學系會與我們合作，和我們ㄧ起努力，讓大學教科書市場越來越透明！<br>如果需要任何Colorgy的服務，也歡迎聯繫，讓我們了解你的需求！</p>
-				<button class="btn" style="margin-top: 24px;">聯絡 Colorgy</button>
+				<a href="https://www.facebook.com/pages/Colorgy/1529686803975150" target="_blank"><button class="btn" style="margin-top: 24px;">聯絡 Colorgy</button></a>
 				<div class="departments isotope">
 					<div class="grid-sizer"></div>
 					<div class="element-item department-item">
@@ -305,7 +311,7 @@
 					<h4>隨時保持關注</h4>
 					<p>我們的服務即將於 2015 年 8 月全面啟動，<br>想要關注 Colorgy 的動態消息，你可以按 <a href="https://www.facebook.com/pages/Colorgy/1529686803975150" target="_blank">Colorgy 粉絲專頁</a>讚、<a href="https://colorgy.io/login">註冊登入</a>成會員，或是下載我們的 TABLE APP ，我們會發送推播消息給你。</p>
 					<div class="buttons">
-						<a class="ios-download" href="#"><img src="images/appstore.png" /></a>
+						<a class="ios-download" href="https://itunes.apple.com/tw/app/colorgytable/id998230121?l=zh&mt=8" target="_blank"><img src="images/appstore.png" /></a>
 					</div>
 				</div>
 			</div>
@@ -392,7 +398,7 @@ var $root = $('html, body');
 $('a').click(function() {
     var href = $.attr(this, 'href');
     $root.animate({
-        scrollTop: $(href).offset().top - 150
+        scrollTop: $(href).offset().top - 100
     }, 500, function () {
         window.location.hash = href;
     });
