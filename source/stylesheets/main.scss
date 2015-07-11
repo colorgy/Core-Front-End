@@ -645,7 +645,7 @@ header{
 	text-align: center;
 
 	h4{
-		color: $darker-gray;
+		color: $primary-color;
 	}
 	p{
 		color: $dark-gray;
@@ -666,6 +666,31 @@ nav.colorgy-nav.not-on-top{
 	}
 }
 
+.register-login-btn{
+	position: relative;
+	&:hover{
+		&::before{
+			border: 1px solid $primary-color;
+		}
+	}
+
+	&::before{
+		position: absolute;
+		content: ' ';
+		width: 100px;
+		height: 40px;
+		border-radius: 2px;
+		border: 1px solid #eee;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+	}
+
+}
 /* Isotope */
 /* clear fix */
 .isotope:after {
