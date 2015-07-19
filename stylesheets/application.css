@@ -12750,7 +12750,7 @@ nav.colorgy-nav.not-on-top {
 @media screen and (min-width: 1425px) {
   /* line 778, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item {
-    width: 23%; }
+    width: 14.6%; }
 
   /* line 778, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item.w2 {
@@ -12758,11 +12758,11 @@ nav.colorgy-nav.not-on-top {
 @media (max-width: 1425px) and (min-width: 800px) {
   /* line 779, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item {
-    width: 31.333333%; } }
-@media (max-width: 800px) and (min-width: 320px) {
+    width: 23%; } }
+@media (max-width: 800px) and (min-width: 508px) {
   /* line 780, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item {
-    width: 48%; } }
+    width: 31.333%; } }
 @media screen and (max-width: 508px) {
   /* line 781, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item {
