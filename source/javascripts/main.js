@@ -46,3 +46,4 @@ function popupNotice(title, content){
 			+ content +
 		'</p></div></div></div><div class="popup-footer"><button class="popup-btn notice-btn">了解</button></div></div>').appendTo('body');
 }
+
