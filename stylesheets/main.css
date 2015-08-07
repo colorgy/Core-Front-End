@@ -7790,8 +7790,8 @@ header {
       -moz-transform: translateY(-50%);
       -o-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-      left: 58%;
-      width: 853px;
+      left: 45%;
+      width: 1100px;
       height: 630px; }
     /* line 434, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .service-intro-box .box-image.tasks {
@@ -7805,22 +7805,22 @@ header {
       -moz-transform: translateY(-50%);
       -o-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-      left: 58%;
-      width: 900px;
+      left: 45%;
+      width: 1100px;
       height: 631px; }
     /* line 449, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .service-intro-box .box-image.table {
       background: url("../images/table-img-mac.png") left top;
       background-size: auto 100%;
       position: absolute;
-      top: 50%;
+      top: 45%;
       transform: translateY(-50%);
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       -o-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-      left: 58%;
-      width: 853px;
+      left: 50%;
+      width: 1100px;
       height: 630px; }
   /* line 464, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .service-intro-box .info {
@@ -7854,7 +7854,7 @@ header {
       -moz-transform: translateY(-50%) translateX(-300px);
       -o-transform: translateY(-50%) translateX(-300px);
       -ms-transform: translateY(-50%) translateX(-300px);
-      width: 35%; }
+      width: 25%; }
       /* line 498, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
       .service-intro-box .info.books.active {
         opacity: 1;
@@ -7873,7 +7873,7 @@ header {
       -moz-transform: translateY(-50%) translateX(-300px);
       -o-transform: translateY(-50%) translateX(-300px);
       -ms-transform: translateY(-50%) translateX(-300px);
-      width: 35%; }
+      width: 25%; }
       /* line 517, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
       .service-intro-box .info.tasks.active {
         opacity: 1;
@@ -7892,7 +7892,7 @@ header {
       -moz-transform: translateY(-50%) translateX(-300px);
       -o-transform: translateY(-50%) translateX(-300px);
       -ms-transform: translateY(-50%) translateX(-300px);
-      width: 35%; }
+      width: 25%; }
       /* line 537, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
       .service-intro-box .info.table.active {
         opacity: 1;
@@ -7905,8 +7905,9 @@ header {
     /* line 550, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .service-intro-box .info > .title > h3 {
       margin-top: 0;
-      color: #717071; }
-    /* line 555, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+      color: #717071;
+      font-size: 32px; }
+    /* line 556, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .service-intro-box .info > .title::before {
       content: " ";
       width: 29px;
@@ -7915,118 +7916,118 @@ header {
       position: absolute;
       top: -20px;
       left: 0px; }
-    /* line 566, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    /* line 567, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .service-intro-box .info > .description {
       color: #717071;
       margin-bottom: 40px; }
-    /* line 571, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    /* line 572, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .service-intro-box .info > p {
       color: #717071;
       font-size: 1em; }
-      /* line 573, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+      /* line 574, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
       .service-intro-box .info > p > .sub-title {
         margin-bottom: 8px;
         display: block;
         font-size: 1.2em; }
-        /* line 578, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+        /* line 579, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
         .service-intro-box .info > p > .sub-title > i {
           color: #33C7AB;
           margin-right: 8px; }
 
-/* line 590, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+/* line 591, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
 .cooperating-departments {
   background-color: #3B3A3B;
   padding: 80px 0;
   text-align: center; }
-  /* line 595, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 596, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .cooperating-departments h4 {
     color: #fff;
     text-align: center; }
-    /* line 598, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    /* line 599, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .cooperating-departments h4 > span {
       color: #33C7AB; }
-  /* line 602, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 603, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .cooperating-departments p {
     color: #fff;
     text-align: center;
     font-size: 1em; }
-  /* line 608, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 609, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .cooperating-departments .departments {
     margin-top: 48px; }
-  /* line 613, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 614, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .cooperating-departments .departments-list > h5 {
     color: #33C7AB;
     margin-bottom: 16px; }
-  /* line 618, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 619, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .cooperating-departments .departments-list li {
     color: #f8f8f8; }
-  /* line 622, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 623, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .cooperating-departments .departments-list.element-item {
     margin-bottom: 40px; }
 
-/* line 628, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+/* line 629, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
 .keep-mention {
   text-align: left;
   padding: 80px 0 0 0;
   background-color: #f7f8fa; }
-  /* line 633, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 634, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .keep-mention .app-img {
     margin-bottom: -4px; }
-  /* line 637, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 638, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .keep-mention .text {
     max-width: 400px;
     margin: 120px auto 0 auto; }
     @media screen and (max-width: 600px) {
-      /* line 637, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+      /* line 638, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
       .keep-mention .text {
         margin: 0px auto 36px auto;
         max-width: 300px; } }
-    /* line 645, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    /* line 646, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .keep-mention .text p {
       font-size: 1em; }
-    /* line 648, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    /* line 649, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .keep-mention .text a {
       color: #33C7AB; }
-      /* line 650, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+      /* line 651, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
       .keep-mention .text a:hover {
         color: #6ddac5; }
-    /* line 655, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    /* line 656, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .keep-mention .text > .buttons {
       margin-top: 36px; }
 
-/* line 661, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+/* line 662, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
 .sign-up-section {
   padding: 80px 0;
   text-align: center;
   background-color: #fff; }
-  /* line 666, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 667, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .sign-up-section h4 {
     color: #33C7AB; }
-  /* line 669, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 670, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .sign-up-section p {
     color: #717071;
     font-size: 1em; }
 
-/* line 675, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+/* line 676, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
 nav.colorgy-nav.not-on-top {
   background-color: rgba(0, 0, 0, 0.6) !important; }
 
-/* line 679, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+/* line 680, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
 .arrow-down {
   text-align: center; }
-  /* line 681, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 682, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .arrow-down > i {
     font-size: 2em !important;
     color: #eee;
     position: relative; }
 
-/* line 688, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+/* line 689, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
 .register-login-btn {
   position: relative; }
-  /* line 691, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 692, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .register-login-btn:hover::before {
     border: 1px solid #33C7AB; }
-  /* line 696, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 697, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .register-login-btn::before {
     position: absolute;
     content: ' ';
@@ -8044,18 +8045,18 @@ nav.colorgy-nav.not-on-top {
 
 /* Isotope */
 /* clear fix */
-/* line 715, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+/* line 716, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
 .isotope:after {
   content: '';
   display: block;
   clear: both; }
 
 /* ---- .element-item ---- */
-/* line 721, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+/* line 722, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
 .grid-sizer {
   width: 18%; }
 
-/* line 724, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+/* line 725, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
 .element-item {
   position: relative;
   overflow: hidden;
@@ -8067,67 +8068,67 @@ nav.colorgy-nav.not-on-top {
   background: transparent;
   color: #262524;
   opacity: 0.95; }
-  /* line 736, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 737, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item img {
     -webkit-transition: transform 0.5s;
     -moz-transition: transform 0.5s;
     -ms-transition: transform 0.5s;
     -o-transition: transform 0.5s;
     transition: transform 0.5s; }
-  /* line 744, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 745, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item:hover img {
     -webkit-transform: scale(1.15);
     -moz-transform: scale(1.15);
     -ms-transform: scale(1.15);
     -o-transform: scale(1.15);
     transform: scale(1.15); }
-  /* line 753, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 754, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item .element-item-infobox {
     padding: 10px; }
-    /* line 755, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    /* line 756, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .element-item .element-item-infobox h5, .element-item .element-item-infobox h6 {
       color: #605F5F; }
-    /* line 758, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    /* line 759, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .element-item .element-item-infobox h5 {
       margin-bottom: 15px; }
-    /* line 761, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    /* line 762, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .element-item .element-item-infobox h6 {
       line-height: 20px;
       text-align: center; }
-    /* line 765, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    /* line 766, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
     .element-item .element-item-infobox p {
       border-top: 1px solid #eee;
       padding-top: 15px;
       text-align: right;
       padding-right: 15px; }
-      /* line 772, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+      /* line 773, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
       .element-item .element-item-infobox p a {
         color: #605F5F; }
-      /* line 775, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+      /* line 776, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
       .element-item .element-item-infobox p a:hover, .element-item .element-item-infobox p a:focus {
         color: #aeaeab; }
 
 @media screen and (min-width: 1425px) {
-  /* line 782, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 783, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item {
     width: 14.6%; }
 
-  /* line 782, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 783, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item.w2 {
     width: 23% !important; } }
 @media (max-width: 1425px) and (min-width: 800px) {
-  /* line 783, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 784, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item {
     width: 23%; } }
 @media (max-width: 800px) and (min-width: 508px) {
-  /* line 784, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 785, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item {
     width: 31.333%; } }
 @media screen and (max-width: 508px) {
-  /* line 785, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  /* line 786, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
   .element-item {
     width: 48%; } }
-/* line 786, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+/* line 787, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
 .element-item > * {
   margin: 0;
   padding: 0; }
