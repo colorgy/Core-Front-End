@@ -352,6 +352,7 @@ header{
 	color: #464646;
 	margin: 8px;
 	padding: 16px 8px 24px 8px;
+	border-radius: 2px;
 
 	> h4 {
 		color: rgb(50, 160, 139);
@@ -359,15 +360,19 @@ header{
 	}
 
 	> p {
-		border-bottom: 1px solid #B4B3B3;
-		padding-bottom: 8px;
-		margin-bottom: 8px;
+		padding-bottom: 4px;
+		margin-bottom: 4px;
+		font-style: italic;
 	}
 	> small{
-		font-size: 1em;
+		font-size: 12px;
 		padding: 8px;
 		text-align: center;
 		display: block;
+	}
+
+	> .btn{
+		margin-top: 8px;
 	}
 }
 
@@ -412,7 +417,7 @@ header{
 		}
 
 		&.books{
-			background: image-url('books-img.jpg') left top;
+			background: image-url('books-img-mac.png') left top;
 			background-size: auto 100%;
 			position: absolute;
 			top: 50%;
@@ -428,7 +433,7 @@ header{
 
 		&.tasks{
 			right: 57%;
-			background: image-url('tasks-img.jpg')left top;
+			background: image-url('tasks-img.png')left top;
 			background-size: auto 100%;
 			position: absolute;
 			top: 50%;
@@ -437,12 +442,12 @@ header{
 			-moz-transform: translateY(-50%);
 			-o-transform: translateY(-50%);
 			-ms-transform: translateY(-50%);
-			left: inherit;
+			left: 58%;
 			width: 900px;
 			height: 631px;
 		}
 		&.table{
-			background: image-url('table-img.png')left top;
+			background: image-url('table-img-mac.png')left top;
 			background-size: auto 100%;
 			position: absolute;
 			top: 50%;
@@ -509,7 +514,6 @@ header{
 			-o-transform: translateY(-50%) translateX(-300px);
 			-ms-transform: translateY(-50%) translateX(-300px);
 			width: 35%;
-			left: 58%;
 			&.active{
 				opacity: 1;
 				visibility: visible;
