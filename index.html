@@ -454,6 +454,11 @@
 		</div>
 	</div>
 </section>
+<div class="pop-up">
+	<a class="pop-up-close"><i class="material-icons">close</i></a>
+	<img src="images/bus-img.png" />
+	<a class="btn btn--large go-to-bus-btn" href="https://bus.colorgy.io" target="_blank">前往購票</a>
+</div>
 <script>
 	$( function() {
 	  // init Isotope
@@ -463,6 +468,10 @@
 	      columnWidth: '.grid-sizer',
 	    });
 	  });
+	})
+
+	$('.pop-up-close').click(function(){
+		$('.pop-up').addClass('hide');
 	})
 
 	$(window).scroll(function(){

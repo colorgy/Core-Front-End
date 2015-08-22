@@ -8132,3 +8132,37 @@ nav.colorgy-nav.not-on-top {
 .element-item > * {
   margin: 0;
   padding: 0; }
+
+/* line 792, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+.pop-up {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 90%;
+  overflow: auto;
+  z-index: 1006; }
+  /* line 805, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  .pop-up > .pop-up-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer; }
+    /* line 811, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+    .pop-up > .pop-up-close > i {
+      font-size: 40px !important;
+      color: black; }
+  /* line 817, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/main.scss */
+  .pop-up .go-to-bus-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%); }
