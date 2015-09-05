@@ -11102,7 +11102,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 footer {
   width: 100%;
   min-height: 150px;
-  background-color: #3B3A3B;
+  background-color: #5E6671;
   padding: 24px 12px;
   text-align: center; }
   /* line 10, /Users/Lucas/Project/Colorgy-Core-Frontend/source/stylesheets/materialize/colorgy-components/_footer.scss */
