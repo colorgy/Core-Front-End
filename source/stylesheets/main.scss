@@ -234,7 +234,7 @@ i{
 // ---------
 
 header{
-	background-image: image-url('bg3.jpg');
+	background-image: image-url('bg7.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -257,7 +257,7 @@ header{
 		position: relative;
 		color: #eee;
 		text-align: center;
-		padding-top: 144px;
+		padding-top: 200px;
 
 		> h2{
 			@media screen and (max-width: 600px) {
@@ -386,10 +386,10 @@ header{
 		background-color: #f7f8fa;
 	}
 	&.tasks{
-		background-color: #EEEFF1;
+		background-color: #f7f8fa;
 	}
 	&.table{
-		background-color: #f7f8fa;
+		background-color: #EEEFF1;
 	}
 
 	.box-image{
@@ -504,6 +504,20 @@ header{
 				-o-transform: translateY(-50%) translateX(0);
 				-ms-transform: translateY(-50%) translateX(0);
 			}
+
+			.title{
+
+				&:before{
+					background: #07c0a1;
+				}
+			}
+
+			.sub-title{
+
+				> i{
+					color: #07c0a1;
+				}
+			}
 		}
 		&.tasks{
 			position: absolute;
@@ -522,6 +536,28 @@ header{
 				-moz-transform: translateY(-50%) translateX(0);
 				-o-transform: translateY(-50%) translateX(0);
 				-ms-transform: translateY(-50%) translateX(0);
+			}
+
+			.title{
+
+				&:before{
+					background: #F75E7A;
+				}
+			}
+
+			.sub-title{
+
+				> i{
+					color: #F75E7A;
+				}
+			}
+
+			.btn{
+				background-color: #F75E7A;
+
+				&:hover{
+					background-color: lighten(#F75E7A, 15%);
+				}
 			}
 		}
 		&.table{
@@ -543,6 +579,27 @@ header{
 				-o-transform: translateY(-50%) translateX(0);
 				-ms-transform: translateY(-50%) translateX(0);
 			}
+
+			.title{
+
+				&:before{
+					background: #F89680;
+				}
+			}
+			.sub-title{
+
+				> i{
+					color: #F89680;
+				}
+			}
+
+			.btn{
+				background-color: #F89680;
+
+				&:hover{
+					background-color: lighten(#F89680, 15%);
+				}
+			}
 		}
 
 		> .title{
@@ -557,7 +614,6 @@ header{
 				content: " ";
 				width: 29px;
 				height: 4px;
-				background: #07c0a1;
 				position: absolute;
 				top: -20px;
 				left: 0px;
@@ -589,13 +645,27 @@ header{
 }
 
 .cooperating-departments{
-	background-color: $darker-gray;
+	background-image: image-url('flat-design-office-desk-o.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	padding: 80px 0;
 	text-align: center;
+	position: relative;
+
+	> .mask{
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color: rgba(72, 85, 95,.85);
+	}
 
 	h4{
 		color: #fff;
 		text-align: center;
+		position: relative;
 		> span{
 			color: $primary-color;
 		}
@@ -604,6 +674,11 @@ header{
 		color: #fff;
 		text-align: center;
 		font-size: 1em;
+		position: relative;
+	}
+
+	.btn{
+		position: relative;
 	}
 
 	.departments{
@@ -663,18 +738,41 @@ header{
 	padding: 80px 0;
 	text-align: center;
 	background-color: #fff;
+	background-image: image-url('bg-outline.png');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+
+	> .mask{
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color: rgba(72, 85, 95,.85);
+	}
 
 	h4{
-		color: $primary-color;
+		color: #FFF;
+		text-shadow: 2px 2px 5px rgba(0,0,0,.4);
+		position: relative;
 	}
 	p{
-		color: $dark-gray;
-		font-size: 1em;
+		color: #FFF;
+		font-size: 1.4em;
+		text-shadow: 2px 2px 5px rgba(0,0,0,.4);
+		position: relative;
+	}
+
+	.btn{
+		position: relative;
 	}
 }
 
 nav.colorgy-nav.not-on-top{
-	background-color: rgba(0,0,0,.6) !important;
+	background-color: rgba(54, 68, 78, .9) !important;
 }
 
 .arrow-down{
@@ -787,4 +885,61 @@ nav.colorgy-nav.not-on-top{
 .element-item > * {
   margin: 0;
   padding: 0;
+}
+
+.pop-up{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	width: 90%;
+	overflow: auto;
+	z-index: 1006;
+
+	> .pop-up-close{
+		position: absolute;
+		top: 16px;
+		right: 16px;
+		cursor: pointer;
+
+		> i{
+			font-size: 40px !important;
+			color: black;
+		}
+	}
+
+	.go-to-bus-btn{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+	}
+}
+
+.color-block{
+	width: 100%;
+	height: 20px;
+	float: left;
+	width: 25%;
+
+	&.color-block--green{
+		background-color: $primary-color;
+	}
+	&.color-block--pink{
+		background-color: #F89680;
+	}
+	&.color-block--blue{
+		background-color: #4C79DC;
+	}
+	&.color-block--red{
+		background-color: #F75E7A;
+	}
 }
